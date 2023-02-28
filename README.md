@@ -23,7 +23,7 @@ To computes the results for the the SPN-based outlying aspect mining method (SOA
 Run `python evaluate-spn-real.py`. Results are stored in results/results_real.csv. 
 
 ### 1.3 Using your own data
-Run `main.py <your-file>.csv`. All samples are used for fitting the SPN model (i.e., your data should include outliers as well as inliers, but you do not need to provide labels). The last column of the file should be binary, indicating whether you want to compute outlying aspects for that sample (1) or not (0). Note that querying a large number of samples can take some time. The script returns a dictionary, containing the outlying aspects (=subspaces) for each queried sample, in the order in which the samples appeared in the CSV. For example, you can run `python3 main.py data/real/data/arrhythmia_pca.csv`.
+Run `python main.py <your-file>.csv`. All samples are used for fitting the SPN model (i.e., your data should include outliers as well as inliers, but you do not need to provide labels). The last column of the file should be binary, indicating whether you want to compute outlying aspects for that sample (1) or not (0). Note that querying a large number of samples can take some time. The script returns a dictionary, containing the outlying aspects (=subspaces) for each queried sample, in the order in which the samples appeared in the CSV. For example, you can run `python main.py data/real/data/arrhythmia_pca.csv`.
 
 
 ## 2. State-of-the-art methods
