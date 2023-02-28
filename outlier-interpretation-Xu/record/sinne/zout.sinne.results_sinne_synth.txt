@@ -1,0 +1,28 @@
++------------------+-------------------------------------+
+|    parameter     |                value                |
++------------------+-------------------------------------+
+|      @ data      | ['../../data/synth-for-aton/data/'] |
+| @ algorithm_name |                sinne                |
+|      @ runs      |                  1                  |
+| @ od_eval_model  |                ['gt']               |
+|   @ start_time   |         2022-02-17 17:28:19         |
+|       path       |   ../../data/synth-for-aton/data/   |
+|       runs       |                  1                  |
+|       eval       |                 True                |
+|    max_level     |                  5                  |
+|      width       |                  10                 |
+|   ensemble_num   |                 100                 |
+|    sample_num    |                  8                  |
+|     pretrain     |                False                |
+|     verbose      |                False                |
+|   record_name    |         results_sinne_synth         |
++------------------+-------------------------------------+
+00-synth_multidim_010_000, od_eval, [p,r,j], 0.8750, 0.9028, 0.8519, time, 83.85, sinne
+01-synth_multidim_010_001, od_eval, [p,r,j], 0.8611, 0.9722, 0.8519, time, 88.15, sinne
+02-synth_multidim_010_002, od_eval, [p,r,j], 0.7389, 0.8089, 0.6674, time, 89.46, sinne
+03-synth_multidim_020_000, od_eval, [p,r,j], 0.4400, 0.4880, 0.3468, time, 834.80, sinne
+04-synth_multidim_020_001, od_eval, [p,r,j], 0.6577, 0.7595, 0.6060, time, 843.66, sinne
+05-synth_multidim_020_002, od_eval, [p,r,j], 0.7071, 0.8605, 0.6808, time, 826.91, sinne
+06-synth_multidim_030_000, od_eval, [p,r,j], 0.5310, 0.6182, 0.4785, time, 2603.47, sinne
+07-synth_multidim_030_001, od_eval, [p,r,j], 0.3889, 0.4202, 0.3211, time, 2448.34, sinne
+08-synth_multidim_030_002, od_eval, [p,r,j], 0.5930, 0.6725, 0.5255, time, 2549.29, sinne

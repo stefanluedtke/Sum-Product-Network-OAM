@@ -1,0 +1,46 @@
++------------------+-------------------------------------+
+|    parameter     |                value                |
++------------------+-------------------------------------+
+|      @ data      | ['../../data/synth-for-aton/data/'] |
+| @ algorithm_name |                 aton                |
+|   @ w2s_ratio    |                 auto                |
+|      @ runs      |                  1                  |
+| @ od_eval_model  |                ['gt']               |
+|   @ start_time   |         2022-02-17 10:38:18         |
+|       gpu        |                 True                |
+|       eval       |                 True                |
+|       path       |   ../../data/synth-for-aton/data/   |
+|    w2s_ratio     |                 auto                |
+|       runs       |                  1                  |
+|   record_name    |          results_aton_synth         |
+|     nbrs_num     |                  30                 |
+|     rand_num     |                  30                 |
+|      alpha1      |                 0.8                 |
+|      alpha2      |                 0.2                 |
+|     n_epoch      |                  10                 |
+|    batch_size    |                 512                 |
+|        lr        |                 0.1                 |
+|     n_linear     |                  64                 |
+|      margin      |                 5.0                 |
++------------------+-------------------------------------+
+00-synth_multidim_010_000, [p r j aupr auroc], 0.6759, 0.9444, 0.6546, 0.9391, 0.9688, time, 3.16, aton
+01-synth_multidim_010_001, [p r j aupr auroc], 0.7083, 0.9583, 0.6722, 0.9796, 0.9838, time, 3.02, aton
+02-synth_multidim_010_002, [p r j aupr auroc], 0.7500, 0.8844, 0.6700, 0.9478, 0.9655, time, 2.96, aton
+03-synth_multidim_020_000, [p r j aupr auroc], 0.4480, 0.6373, 0.3540, 0.6328, 0.8217, time, 4.22, aton
+04-synth_multidim_020_001, [p r j aupr auroc], 0.4982, 0.8071, 0.4462, 0.7940, 0.9076, time, 5.60, aton
+05-synth_multidim_020_002, [p r j aupr auroc], 0.4767, 0.8848, 0.4413, 0.7880, 0.9387, time, 7.50, aton
+06-synth_multidim_030_000, [p r j aupr auroc], 0.3660, 0.7043, 0.3222, 0.5787, 0.8742, time, 9.16, aton
+07-synth_multidim_030_001, [p r j aupr auroc], 0.3932, 0.6601, 0.3318, 0.5768, 0.8405, time, 6.91, aton
+08-synth_multidim_030_002, [p r j aupr auroc], 0.3973, 0.7353, 0.3541, 0.6287, 0.8936, time, 9.18, aton
+09-synth_multidim_040_000, [p r j aupr auroc], 0.2439, 0.5389, 0.2065, 0.4356, 0.8052, time, 10.82, aton
+10-synth_multidim_040_001, [p r j aupr auroc], 0.2739, 0.4720, 0.2208, 0.3345, 0.7489, time, 10.60, aton
+11-synth_multidim_040_002, [p r j aupr auroc], 0.2573, 0.5870, 0.2217, 0.4858, 0.8301, time, 11.41, aton
+12-synth_multidim_050_000, [p r j aupr auroc], 0.2041, 0.4753, 0.1758, 0.3258, 0.7709, time, 14.06, aton
+13-synth_multidim_050_001, [p r j aupr auroc], 0.2126, 0.5224, 0.1866, 0.3779, 0.7943, time, 13.71, aton
+14-synth_multidim_050_002, [p r j aupr auroc], 0.2237, 0.5157, 0.1925, 0.3406, 0.7845, time, 14.53, aton
+15-synth_multidim_075_000, [p r j aupr auroc], 0.1570, 0.4779, 0.1366, 0.2444, 0.7843, time, 23.67, aton
+16-synth_multidim_075_001, [p r j aupr auroc], 0.1378, 0.4136, 0.1207, 0.2243, 0.7828, time, 23.08, aton
+17-synth_multidim_075_002, [p r j aupr auroc], 0.1127, 0.3572, 0.0971, 0.1985, 0.7410, time, 23.13, aton
+18-synth_multidim_100_000, [p r j aupr auroc], 0.0927, 0.3290, 0.0804, 0.1429, 0.7483, time, 28.71, aton
+19-synth_multidim_100_001, [p r j aupr auroc], 0.1077, 0.3216, 0.0918, 0.1745, 0.7005, time, 26.02, aton
+20-synth_multidim_100_002, [p r j aupr auroc], 0.0989, 0.3667, 0.0868, 0.1369, 0.7720, time, 28.73, aton
